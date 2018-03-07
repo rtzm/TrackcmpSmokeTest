@@ -4,20 +4,18 @@
   <body>
     <h1>Smoke test site for Trackcmp</h1>
 
-    <p>Adding trackcmp code here</p>
-    <script type="text/javascript">
-        var trackcmp_email = '';
-        var trackcmp = document.createElement("script");
-        trackcmp.async = true;
-        trackcmp.type = 'text/javascript';
-        trackcmp.src = '//trackcmp.net/visit?actid=999929138&e='+encodeURIComponent(trackcmp_email)+'&r='+encodeURIComponent(document.referrer)+'&u='+encodeURIComponent(window.location.href);
-        var trackcmp_s = document.getElementsByTagName("script");
-        if (trackcmp_s.length) {
-            trackcmp_s[0].parentNode.appendChild(trackcmp);
-        } else {
-            var trackcmp_h = document.getElementsByTagName("head");
-            trackcmp_h.length && trackcmp_h[0].appendChild(trackcmp);
-        }
-    </script>
+    <p><a href="staging/visitTest.html">Staging account, trackcmp.net/visit smoke test</a></p>
+    <p><a href="staging/eventTest.php">Staging account, trackcmp.net/event smoke test</a></p>
+    <p><a href="staging/convertTest.html">Staging account, trackcmp.net/convert smoke test</a></p>
+    <p><a href="staging/redirTest.html">Staging account, trackcmp.net/redir smoke test</a></p>
+    <p><a href="staging/tReadTest.html">Staging account, trackcmp.net/t_read smoke test</a></p>
+
+    <p><a href="control/visitTest.html">Production test account, trackcmp.net/visit smoke test</a></p>
+    <p><a href="control/eventTest.php">Production test account, trackcmp.net/event smoke test</a></p>
+    <p><a href="control/convertTest.html">Production test account, trackcmp.net/convert smoke test</a></p>
+    <p><a href="control/redirTest.html">Production test account, trackcmp.net/redir smoke test</a></p>
+    <p><a href="control/tReadTest.html">Production test account, trackcmp.net/t_read smoke test</a></p>
   </body>
 </html>
+
+
