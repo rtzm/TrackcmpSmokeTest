@@ -6,6 +6,22 @@
 </head>
 <body>
     <h1>Production test account, trackcmp.net/convert smoke test</h1>
-
+    <script type="text/javascript">
+        var trackcmp_email = '';
+        var trackcmp_conversion = '1';
+        var trackcmp_conversion_value = '';
+        var trackcmp = document.createElement("script");
+        trackcmp.async = true;
+        trackcmp.type = 'text/javascript';
+        trackcmp.src = '//trackcmp.net/convert?actid=999929138&e='+encodeURIComponent(trackcmp_email)+'&c='+trackcmp_conversion+'&v='+trackcmp_conversion_value+
+            '&r='+encodeURIComponent(document.referrer)+'&u='+encodeURIComponent(window.location.href);
+        var trackcmp_s = document.getElementsByTagName("script");
+        if (trackcmp_s.length) {
+            trackcmp_s[0].parentNode.appendChild(trackcmp);
+        } else {
+            var trackcmp_h = document.getElementsByTagName("head");
+            trackcmp_h.length && trackcmp_h[0].appendChild(trackcmp);
+        }
+    </script>
 </body>
 </html>
