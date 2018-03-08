@@ -5,7 +5,7 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_POST, true);
 curl_setopt($curl, CURLOPT_POSTFIELDS, array(
 	"actid" => "88928894",
-	"key" => "",
+	"key" => "b44be29322d58f4907d47d0830560b267ec253bc",
 	"event" => "MANUAL_TEST",
 	"eventdata" => "TEST_VALUE",
 	"visit" => json_encode(array(
