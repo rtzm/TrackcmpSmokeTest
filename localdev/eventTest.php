@@ -4,8 +4,8 @@ curl_setopt($curl, CURLOPT_URL, "http://localhost/hosted-scripts/sites/trackcmp/
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_POST, true);
 curl_setopt($curl, CURLOPT_POSTFIELDS, array(
-	"actid" => "999929138",
-	"key" => "31b10ac323f6b43c4507f7d9551b7684f092703c",
+	"actid" => "5469",
+	"key" => "7e69bf619223d1953f66ddfd6166044e18859e588c38326085b2e7d6e42b8100e51cae51",
 	"event" => "MANUAL_TEST",
 	"eventdata" => "TEST_VALUE",
 	"visit" => json_encode(array(
