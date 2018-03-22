@@ -10,7 +10,7 @@ curl_setopt($curl, CURLOPT_POSTFIELDS, array(
 	"eventdata" => "TEST_VALUE",
 	"visit" => json_encode(array(
 		// If you have an email address, assign it here.
-		"email" => "visit3.22.9.20@example.com",
+		"email" => "tatymasyv@gmail.com",
 	)),
 ));
 
